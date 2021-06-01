@@ -4,6 +4,16 @@ plugins {
 }
 
 android {
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            def appName = "LegendaryTotem"
+            def date = new Date()
+            def formattedDate = date.format('01-06-2021')
+            outputFileName = appName + formattedDate + "-${variant.versionName}-${variant.versionCode}.apk"
+        }
+    }
+
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
