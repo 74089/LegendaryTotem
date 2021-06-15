@@ -27,7 +27,7 @@ Standalone Android app which randomly plays videos from the `/raw/` folder insid
 2. Automatically play another video after video completion.
 3. New video can't be the same as just completed video.
 
-<img src="https://i.imgur.com/bcoranS.mp4" alt="First Prototype GIF" width="320" height="640">
+![first-prototype](https://i.imgur.com/bcoranS.gif)
 
 ### Version 2
 
